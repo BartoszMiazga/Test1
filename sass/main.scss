@@ -54,6 +54,10 @@ html {
 	}
 }
 @media (min-width: 320px) and (max-width: 767px) {
+	header.header {
+		background-image: url('../Css/Pictures/playstation-1845880_1920.jpg');
+	}
+
 	h1 {
 		font-size: 16px;
 	}
@@ -103,7 +107,7 @@ h2 {
 	}
 }
 .aboutus-hover {
-	// transition: 0.3s;
+	transition: 0.3s;
 }
 .aboutus-hover:hover {
 	color: $main-color;
@@ -415,7 +419,8 @@ section.contact {
 	background-attachment: fixed;
 	z-index: 0;
 
-	h3 { letter-spacing: 3px;
+	h3 {
+		letter-spacing: 3px;
 		text-transform: uppercase;
 		color: $bg-color;
 	}
@@ -423,7 +428,8 @@ section.contact {
 		color: $bg-color;
 	}
 
-	i {padding: 10px;
+	i {
+		padding: 10px;
 		color: $bg-color;
 		font-size: 26px;
 	}
@@ -434,12 +440,15 @@ section.contact {
 	div.underline {
 		background-color: $bg-color;
 	}
-	.contact-us{display: flex;
+	.contact-us {
+		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
-	.contact-item{margin: 30px 0;}
+	.contact-item {
+		margin: 30px 0;
+	}
 }
 
 .shadow-contact {
